@@ -93,10 +93,10 @@ void OLEDCommandList(){
         OLEDWriteCommand(0xAE); // display OFF
         OLEDWriteCommand(0x20); // set Memory Addressing Mode
         OLEDWriteCommand(0x02); // 0x02 = Page Addressing Mode
-        OLEDWriteCommand(0x8D); // uint8_tge Pump Command
-        OLEDWriteCommand(0x14); // enable uint8_tge Pump
+        OLEDWriteCommand(0x8D); // charge Pump Command
+        OLEDWriteCommand(0x14); // enable charge Pump
         OLEDWriteCommand(0xA4);
-        OLEDWriteCommand(0xC8);// flip the screen
+        OLEDWriteCommand(0xC8); // flip the screen
         OLEDWriteCommand(0xAF); // Display ON
 
 }

@@ -1,5 +1,5 @@
 # Bare-Metal Driver for The SSD1306 OLED
-
+> 📂 **Quick Link:** I2C1, GPIO, and SSD1306 commands are located in [`Core/Src/main.c`](Core/Src/main.c)
 ## How to use
 ### Board compatibility
 You'll need an `STM32 NUCLEO-F446RE` to run this code on considering the pin and port configurations can change on other board. If you still wanna use this code, you can change the ports and pins directly on the code but you'll have to check your own board's reference manual.
